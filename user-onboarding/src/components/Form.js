@@ -35,7 +35,7 @@ function LoginForm({ values, errors, touched, status }) {
           <option value="Very Secure">Very Sekure</option>
         </Field>
       </div>
-      <label className="security-checkbox">
+      <label className="checkbox-container">
           Accept Legit TOS
         <Field type="checkbox" name="security" checked={values.tos} />
         <span className="checkmark" />
