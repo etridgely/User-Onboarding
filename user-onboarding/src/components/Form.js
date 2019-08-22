@@ -17,15 +17,15 @@ function LoginForm({ values, errors, touched, status }) {
     <Form>
       <div>
         {touched.name && errors.name && <p>{errors.name}</p>}
-        <Field type="name" name="name" placeholder="Name" />
+        <Field type="name" name="name" placeholder="Kapitalist Name" />
       </div>
       <div>
         {touched.email && errors.email && <p>{errors.email}</p>}
-        <Field type="email" name="email" placeholder="Email" />
+        <Field type="email" name="email" placeholder="Innocent Email" />
       </div>
       <div>
         {touched.password && errors.password && <p>{errors.password}</p>}
-        <Field type="password" name="password" placeholder="Password" />
+        <Field type="password" name="password" placeholder="Sekure Password" />
       </div>
       <div className="secure-menu">
         <Field component="select" className="security-select" name="security">
