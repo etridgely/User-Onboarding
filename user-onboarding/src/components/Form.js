@@ -66,11 +66,11 @@ const UserForm = withFormik({
   },
   validationSchema: Yup.object().shape({
     email: Yup.string()
-      .email("Email not valid")
-      .required("Email is required"),
+      .email("Stalin will be angry")
+      .required("Email is required, Brother"),
     password: Yup.string()
-      .min(8, "Password must be 8 characters or longer")
-      .required("Password is required")
+      .min(8, "Stalin will be angry. More characters.")
+      .required("How else will the peasants unite?")
   }),
   handleSubmit(values, { resetForm, setStatus, setErrors, setSubmitting }) {
     if (values.email === "alreadytaken@atb.dev") {
